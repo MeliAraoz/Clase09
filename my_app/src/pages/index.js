@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Button from '@/components/button'
 
 export default function Home() {
   return (
@@ -12,7 +12,8 @@ export default function Home() {
       </Head>
       <main className='conteiner'>
           <h1 className='title'>Ejercicio 9: Con Framework</h1>
+          <button className='btn'>Boton desde ReactJS</button>
       </main>
     </>
-  )
-}
+    );
+  }
